@@ -504,34 +504,12 @@ GitHub Copilot 的功能是透過安裝**擴充套件**來實現的，你需要�
 
 本 Repository 會每天自動從 [Awesome GitHub Copilot Customizations](https://github.com/github/awesome-copilot) 專案同步以下內容：
 
-- **chatmodes/**: GitHub Copilot 聊天模式設定檔 (30+ 個檔案)
-- **instructions/**: GitHub Copilot 指令檔案 (35+ 個檔案)  
-- **prompts/**: GitHub Copilot 提示檔案 (40+ 個檔案)
+| 目錄 | 說明 | 數量 |
+| --- | --- | --- |
+| [.github/agents/](.github/agents/) | GitHub Copilot 代理（Agent）設定檔 | 203 個 |
+| [.github/instructions/](.github/instructions/) | GitHub Copilot 指令（Instructions）設定檔 | 177 個 |
 
-這些檔案包含了各種專業領域的 GitHub Copilot 自訂設定，如：
-
-### 聊天模式 (chatmodes)
-- Azure 架構師模式
-- 除錯模式
-- 專家級軟體工程師模式
-- 程式碼清潔工模式
-- 實作計畫模式
-- 以及更多專業模式...
-
-### 指令檔案 (instructions)
-- Angular 開發指引
-- .NET/C# 最佳實務
-- Docker 容器化指引
-- Kubernetes 部署指引
-- 安全開發指引
-- 以及更多技術指引...
-
-### 提示檔案 (prompts)
-- 建立架構決策記錄
-- 產生測試程式碼
-- 建立技術文件
-- 程式碼審查提示
-- 以及更多實用提示...
+> 📂 各目錄的完整檔案清單請參考各目錄下的 README.md
 
 > 📝 **使用說明**: 詳細的使用方法請參考 [SYNC_README.md](SYNC_README.md)
 
